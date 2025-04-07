@@ -9,8 +9,8 @@
 
 [license-badge]: https://img.shields.io/badge/license-apache2-blue.svg
 [license-link]: LICENSE
-[ci-link]: https://github.com/libcat/libcat/actions?query=workflow:tests
-[ci-badge]: https://github.com/libcat/libcat/workflows/tests/badge.svg
+[ci-link]: https://github.com/dtyq/es6-template-strings/actions?query=workflow:test
+[ci-badge]: https://github.com/dtyq/es6-template-strings/workflows/test/badge.svg
 [codecov-badge]: https://codecov.io/gh/dtyq/es6-template-strings/branch/master/graph/badge.svg
 [codecov-link]: https://codecov.io/gh/dtyq/es6-template-strings
 
