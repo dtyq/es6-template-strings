@@ -28,11 +28,11 @@ jobs:
 
       # 安装依赖包
       - name: Install dependencies
-        run: npm install -g pnpm && pnpm ci
+        run: npm install
 
       # 运行单元测试并生成覆盖率报告
       - name: Run unit tests
-        run: pnpm test
+        run: npm test
 
       # 上传覆盖率报告到Codecov
       - name: Upload coverage to Codecov
