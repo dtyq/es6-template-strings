@@ -32,11 +32,13 @@ jobs:
 
       # 运行单元测试并生成覆盖率报告
       - name: Run unit tests
-        run: npm test
+        run: npm test -- --coverage --collectCoverage=true
 
       # 上传覆盖率报告到Codecov
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v3
         with:
           directory: ./coverage/lcov.info
+          fail_ci_if_error: true
+          flags: unittests
           verbose: true
